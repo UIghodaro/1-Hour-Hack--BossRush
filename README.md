@@ -2,3 +2,6 @@
 A hackathon project created in 1 hour for the WHACK 1 hour Hack
 
 It's a rhythm game using ``a/s/d/f``... just tap along to the beat.
+
+
+To run it, run ``python game.py`` from the root
