@@ -6,7 +6,7 @@ import keyboard  # pip install keyboard
 BPM = 120                    # beats per minute
 BEAT_INTERVAL = 60 / BPM     # seconds between beats
 KEYS = ['a', 's', 'd', 'f']  # keys used for rhythm input
-BOSS_HEALTH = 10
+BOSS_HEALTH = 12
 
 # --- Game State ---
 player_score = 0
@@ -63,9 +63,6 @@ def play_pattern(pattern):
             for key in KEYS:
                 if keyboard.is_pressed(key):
                     pressed_key = key
-                    break
-            if pressed_key:
-                break
 
         # Evaluate
         if target == '.':
